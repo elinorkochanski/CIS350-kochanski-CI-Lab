@@ -14,3 +14,9 @@ def test_calc_multiply_fail():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+def test_calc_square():
+    output = square_number(10)
+    assert output == 100
+def test_calc_linear_func():
+    output = linear_func(5,8,7)
+    assert output == 43
